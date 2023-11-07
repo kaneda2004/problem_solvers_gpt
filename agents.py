@@ -21,7 +21,7 @@ def generate_personalities():
             max_tokens=400,
             messages=[
                 {"role": "system", "content": "Generate two distinct personalities with technical skillsets for two different LLMs. We're making agents. "
-                "(names, skillsets, personalities, brief description, etc). "
+                "(names, skillsets, personalities, brief description). "
                 "Use JSON in your response return two objects LLM1 and LLM2."
                 }
             ]
